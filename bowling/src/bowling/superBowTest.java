@@ -31,11 +31,12 @@ public void testPuntos() {
 	assertEquals(16, bowling.puntos());
 }
 
-//	@Test
-//	public void testStrike() {
-//		fail("Not yet implemented");
-//	}
-//
+	@Test
+	public void juegoPerfecto() {
+		tirarTodo(12, 10, bowling);
+		assertEquals(200, bowling.puntos());
+	}
+
 //	@Test
 //	public void testExtra() {
 //		fail("Not yet implemented");
