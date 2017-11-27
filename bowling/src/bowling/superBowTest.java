@@ -39,7 +39,7 @@ public void testPuntos() {
 	@Test
 	public void testNulo() {
 		tirarTodo(20, 0, bowling);
-		assertEquals(1, bowling.puntos());
+		assertEquals(0, bowling.puntos());
 	}
 	
 
