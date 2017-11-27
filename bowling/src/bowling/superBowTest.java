@@ -36,6 +36,12 @@ public void testPuntos() {
 		tirarTodo(12, 10, bowling);
 		assertEquals(300, bowling.puntos());
 	}
+	@Test
+	public void testNulo() {
+		tirarTodo(20, 0, bowling);
+		assertEquals(1, bowling.puntos());
+	}
+	
 
 //	@Test
 //	public void testExtra() {
