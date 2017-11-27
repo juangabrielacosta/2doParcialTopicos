@@ -34,7 +34,7 @@ public void testPuntos() {
 	@Test
 	public void juegoPerfecto() {
 		tirarTodo(12, 10, bowling);
-		assertEquals(200, bowling.puntos());
+		assertEquals(300, bowling.puntos());
 	}
 
 //	@Test
