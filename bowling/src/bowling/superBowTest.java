@@ -26,8 +26,8 @@ void tirarTodo (int a ,int b , superBow bowling) {
 @Test
 public void testPuntos() {
 	bowling.tirar(10);
-	bowling.tirar(10);
-	tirarTodo(17, 0, bowling);
+	bowling.tirar(3);
+	tirarTodo(16, 0, bowling);
 	assertEquals(16, bowling.puntos());
 }
 
